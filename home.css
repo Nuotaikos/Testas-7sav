@@ -37,21 +37,46 @@ h1 {
 .row1 {
     width: 45%;
     background-color: #E7E9FE;
-    color:#233BF5;    
+    color:#233BF5;   
+    cursor: pointer; 
 }
 .row2 {
     width: 45%;
-    background-color: #DCE1FF;   
+    background-color: #DCE1FF;
+    cursor: pointer;   
 }
 .row3 {
     width: 93%;
     background-color: #C7CDFD;
+    cursor: pointer;
 }
-.row4 {
+.textarea {
     width: 93%;
-    padding: 50px;
-    background-color: #A5B1FD;
+    height: 8%;
+    margin-top: 1%;
     margin-bottom: 5%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #A5B1FD;
+    font-size: 21px;
+    resize: none;
+    margin-left: 1%;
+    color:#2B31AF;
+    font-family: inherit;
+    line-height: 1.4em;
+    transition: all 0.2s;
+}
+.textarea:hover {
+    cursor: pointer;
+    background-color: #a5b1fdb2;
+}
+.textarea:focus {
+    cursor: text;
+    color: #2B31AF;
+    background-color: #fff;
+    border: 2px solid #333;
 }
 input {
     border: none;
@@ -62,8 +87,8 @@ input {
 a {
     width: 15%;
     font-size: 20px;
-    /* line-height: 30px; */
     padding: 14px;
+    /* top: 0%; */
     padding-left: 55px;
     padding-right: 55px;
     border-radius: 25px;
